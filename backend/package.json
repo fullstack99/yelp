@@ -1,0 +1,16 @@
+{
+  "name": "yelp_search",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "~1.15.2",
+    "cors": "^2.8.5",
+    "express": "~3.4.4",
+    "https": "^1.0.0",
+    "nodemon": "^1.18.6"
+  }
+}
